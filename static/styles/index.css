@@ -34,3 +34,8 @@ button
     justify-content: center;
     gap: 2rem;
 }
+
+a
+{
+    color: black;
+}
