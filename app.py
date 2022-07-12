@@ -1,6 +1,5 @@
 from flask import Flask, render_template, request
 import os
-from db import conn
 
 import psycopg2
 
