@@ -1,0 +1,36 @@
+body
+{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: yellow;
+}
+
+#maintable
+{
+    background-color: rgba(41, 6, 87, 0.6);
+}
+
+button
+{
+    background-color: rgba(41, 6, 87, 0.411);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    color: white;
+    font-size: x-large;
+    font-weight: bolder;
+    width: 20rem;
+}
+
+#container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
