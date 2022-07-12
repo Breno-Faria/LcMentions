@@ -25,7 +25,7 @@
                 <tr>
                     <td>{{ loop.index0 + 1}}</td>
                     <td>{{ problem[0]}}</td>
-                    <td><a href="https://leetcode.com/problems/{{problem[0].replace(" ", "-")}}" style="color: black">Go to LeetCode</a></td>
+                    <td><a href="https://leetcode.com/problems/{{problem[0].replace(" ", "-").lower()}}" style="color: black">Go to LeetCode</a></td>
                 </tr>
             {% endfor %}
 
