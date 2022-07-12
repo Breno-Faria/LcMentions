@@ -19,11 +19,13 @@
             <thead>
                 <th scope="col" id="thindex">#</th>
                 <th scope="col" id="thname">Title</th>
+                <th scrope="col">URL</th>
             </thead>
             {% for problem in problems %}
                 <tr>
                     <td>{{ loop.index0 + 1}}</td>
                     <td>{{ problem[0]}}</td>
+                    <td>{{ problem[0].replace(" ", "-") }}</td>
                 </tr>
             {% endfor %}
 
